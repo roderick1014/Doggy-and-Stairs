@@ -26,7 +26,7 @@ class PlayWindow(Canvas):
         
    def initGame(self):
       '''Network Apply'''
-      self.SERVER = "140.118.115.124"   #　← Modify the address here
+      self.SERVER = "140.118.115.124"   #　← Modify the address here.
       self.PORT = 5050
       self.ADDR = (self.SERVER,self.PORT)
 ```
@@ -42,7 +42,7 @@ class PlayWindow(Canvas):
         
    def initGame(self):
       '''Network Apply'''
-      self.CLIENT = "127.0.0.1"          #　← Modify the address here
+      self.CLIENT = "127.0.0.1"          #　← Modify the address here.
       self.PORT = 5050
       self.ADDR = (self.CLIENT,self.PORT)
 ```
