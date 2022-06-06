@@ -69,18 +69,18 @@ class PlayWindow(Canvas):
       
       
    def LoadImages(self):
-      self.Ceiling =  tk.PhotoImage(file='Ceiling.png')
-      self.TrapStairs = tk.PhotoImage(file='TrapStairs.png')
-      self.BackGround = tk.PhotoImage(file='background.png')
-      self.StairsImage = tk.PhotoImage(file='Stairs.png') #Import stairs
-      self.DoggyImageData0 = tk.PhotoImage(file='Doggy1.png')  #Doggy stand and face right
-      self.DoggyImageData1 = tk.PhotoImage(file='Doggy1-Left1.png') #Doggy moving left
-      self.DoggyImageData2 = tk.PhotoImage(file='Doggy1-Left2.png') #Doggy moving left
-      self.DoggyImageData3 = tk.PhotoImage(file='Doggy1-Left.png')   #Doggy face left and stop
-      self.DoggyImageData4 = tk.PhotoImage(file='Doggy1-2.png') #Doggy stand and face left
-      self.DoggyImageData5 = tk.PhotoImage(file='Doggy1-Right1.png') #Doggy moving right
-      self.DoggyImageData6 = tk.PhotoImage(file='Doggy1-Right2.png') #Doggy moving right
-      self.DoggyImageData7 = tk.PhotoImage(file='Doggy1-Right.png') #Doggy face right and stop
+      self.Ceiling =  tk.PhotoImage(file='images/Ceiling.png')
+      self.TrapStairs = tk.PhotoImage(file='images/TrapStairs.png')
+      self.BackGround = tk.PhotoImage(file='images/background.png')
+      self.StairsImage = tk.PhotoImage(file='images/Stairs.png') #Import stairs
+      self.DoggyImageData0 = tk.PhotoImage(file='images/Doggy1.png')  #Doggy stand and face right
+      self.DoggyImageData1 = tk.PhotoImage(file='images/Doggy1-Left1.png') #Doggy moving left
+      self.DoggyImageData2 = tk.PhotoImage(file='images/Doggy1-Left2.png') #Doggy moving left
+      self.DoggyImageData3 = tk.PhotoImage(file='images/Doggy1-Left.png')   #Doggy face left and stop
+      self.DoggyImageData4 = tk.PhotoImage(file='images/Doggy1-2.png') #Doggy stand and face left
+      self.DoggyImageData5 = tk.PhotoImage(file='images/Doggy1-Right1.png') #Doggy moving right
+      self.DoggyImageData6 = tk.PhotoImage(file='images/Doggy1-Right2.png') #Doggy moving right
+      self.DoggyImageData7 = tk.PhotoImage(file='images/Doggy1-Right.png') #Doggy face right and stop
       
       Constants.DogIm[0] = self.DoggyImageData0
       Constants.DogIm[1] = self.DoggyImageData1
@@ -91,26 +91,26 @@ class PlayWindow(Canvas):
       Constants.DogIm[6] = self.DoggyImageData6
       Constants.DogIm[7] = self.DoggyImageData7
 
-      Constants.HurtDogIm[0] = tk.PhotoImage(file='Doggy1H.png')
-      Constants.HurtDogIm[1] = tk.PhotoImage(file='Doggy1_Left1H.png')
-      Constants.HurtDogIm[2] = tk.PhotoImage(file='Doggy1_Left2H.png') 
-      Constants.HurtDogIm[3] = tk.PhotoImage(file='Doggy1_LeftH.png')
-      Constants.HurtDogIm[4] = tk.PhotoImage(file='Doggy1-2H.png')
-      Constants.HurtDogIm[5] = tk.PhotoImage(file='Doggy1_Right1H.png')
-      Constants.HurtDogIm[6] = tk.PhotoImage(file='Doggy1_Right2H.png')
-      Constants.HurtDogIm[7] = tk.PhotoImage(file='Doggy1_RightH.png')
+      Constants.HurtDogIm[0] = tk.PhotoImage(file='images/Doggy1H.png')
+      Constants.HurtDogIm[1] = tk.PhotoImage(file='images/Doggy1_Left1H.png')
+      Constants.HurtDogIm[2] = tk.PhotoImage(file='images/Doggy1_Left2H.png') 
+      Constants.HurtDogIm[3] = tk.PhotoImage(file='images/Doggy1_LeftH.png')
+      Constants.HurtDogIm[4] = tk.PhotoImage(file='images/Doggy1-2H.png')
+      Constants.HurtDogIm[5] = tk.PhotoImage(file='images/Doggy1_Right1H.png')
+      Constants.HurtDogIm[6] = tk.PhotoImage(file='images/Doggy1_Right2H.png')
+      Constants.HurtDogIm[7] = tk.PhotoImage(file='images/Doggy1_RightH.png')
       
-      Constants.LifeIm[0] = tk.PhotoImage(file='Life-0.png')
-      Constants.LifeIm[1] = tk.PhotoImage(file='Life-1.png')
-      Constants.LifeIm[2] = tk.PhotoImage(file='Life-2.png')
-      Constants.LifeIm[3] = tk.PhotoImage(file='Life-3.png')
-      Constants.LifeIm[4] = tk.PhotoImage(file='Life-4.png')
-      Constants.LifeIm[5] = tk.PhotoImage(file='Life-5.png')
-      Constants.LifeIm[6] = tk.PhotoImage(file='Life-6.png')
-      Constants.LifeIm[7] = tk.PhotoImage(file='Life-7.png')
-      Constants.LifeIm[8] = tk.PhotoImage(file='Life-8.png')
-      Constants.LifeIm[9] = tk.PhotoImage(file='Life-9.png')
-      Constants.LifeIm[10] = tk.PhotoImage(file='Life-10.png')
+      Constants.LifeIm[0] = tk.PhotoImage(file='images/Life-0.png')
+      Constants.LifeIm[1] = tk.PhotoImage(file='images/Life-1.png')
+      Constants.LifeIm[2] = tk.PhotoImage(file='images/Life-2.png')
+      Constants.LifeIm[3] = tk.PhotoImage(file='images/Life-3.png')
+      Constants.LifeIm[4] = tk.PhotoImage(file='images/Life-4.png')
+      Constants.LifeIm[5] = tk.PhotoImage(file='images/Life-5.png')
+      Constants.LifeIm[6] = tk.PhotoImage(file='images/Life-6.png')
+      Constants.LifeIm[7] = tk.PhotoImage(file='images/Life-7.png')
+      Constants.LifeIm[8] = tk.PhotoImage(file='images/Life-8.png')
+      Constants.LifeIm[9] = tk.PhotoImage(file='images/Life-9.png')
+      Constants.LifeIm[10] = tk.PhotoImage(file='images/Life-10.png')
 
    def CreateObj(self):
        self.create_image(301,60, anchor='n',image=self.BackGround,tag = "Background")
