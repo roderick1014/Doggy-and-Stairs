@@ -1,5 +1,5 @@
 ##  **Doggy_and_Stairs** 
-#### **The simplified rebuilding of NS-SHAFT which is written by python (without pygame).** ####
+#### **A simplified rebuilding of NS-SHAFT game which is written by python with only tkinter (without pygame).** ####
 #### **Dec. 2020**
 
 ---
